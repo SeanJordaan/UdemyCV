@@ -1,0 +1,16 @@
+body {
+  background-color: #89cff0
+}
+hr {
+  background-color: black;
+  border-style: none;
+  border-top-style: dotted;
+  border-radius: 20px;
+  width: auto;
+}
+h1 {
+  color: navy;
+}
+h3{
+  color:navy;
+}
