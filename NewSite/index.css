@@ -1,3 +1,145 @@
-body{
-  background-color: blue;
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;
+  color: #66BFBF;
+}
+
+.programmer {
+  /*H2*/
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  color: #11999E;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  color: #11999E;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr{
+  border: dotted #89cff0 6px;
+  border-bottom: none;
+  width:4%;
+  margin: 100px auto;
+}
+
+.skill-row {
+  margin: auto;
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  text-align: left;
+  line-height: 2;
+}
+
+.atlas {
+  width: 280px;
+  height: 280px;
+  float: left;
+  margin-right: 30px;
+}
+
+.coding {
+  width: 280px;
+  height: 280px;
+  margin-left: 30px;
+  float: right;
+}
+
+.firstContainer {
+  background-color: #E4F9F5;
+}
+
+.middlecontainer {}
+
+.bottomContainer {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 450px;
+  top: 250px;
+}
+
+.top-cloud {
+  position: relative;
+  left: 200px;
+  padding: 50px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  color: #11999E;
+  height: 100px;
+  padding: 20px;
+}
+
+.footer-link {
+  font-family: 'Montserrat', sans-serif;
+  margin: 18px;
+  color: #11999E;
+  font-size: 18px;
+}
+a:hover{
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.btn {
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #66BFBF;
+margin-bottom: 20px;
+border-radius: 12px;
+border: none;
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+}
+.btn:hover {background-color: #adadad}
+
+.btn:active {
+  background-color: #adadad;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.rights{
+  color: white;
+  font-size: 20px;
+  padding: 18px 0;
+}
+
+hr{
+  list-style: dot;
+}
+
+.intro{
+  width: 30%;
+  margin: auto auto auto auto;
 }
